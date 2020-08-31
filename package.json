@@ -1,0 +1,16 @@
+{
+  "name": "postman_jsonplaceholder",
+  "version": "1.0.0",
+  "description": "Project Postman Tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-tests.production": "newman run tests/jsonplaceholder.postman_collection"
+  },
+  "author": "Maren Medelnik",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.1.2"
+  }
+}
