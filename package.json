@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests.production": "newman run tests/postman_collection"
+    "api-tests.production": "newman run tests/postman_collection.json"
   },
   "author": "Maren Medelnik",
   "license": "ISC",
